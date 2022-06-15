@@ -17,8 +17,7 @@ steps:
   inputs:
     version: '5.0.x'
     includePreviewVersions: false # Required for preview versions
-
-steps:
+    
 - task: DotNetCoreCLI@2
   inputs:
     command: 'restore'
