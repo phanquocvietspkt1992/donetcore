@@ -16,7 +16,7 @@ steps:
 - task: UseDotNet@2
   inputs:
     version: '5.0.x'
-    includePreviewVersions: true # Required for preview versions
+    includePreviewVersions: false # Required for preview versions
 
 steps:
 - task: DotNetCoreCLI@2
